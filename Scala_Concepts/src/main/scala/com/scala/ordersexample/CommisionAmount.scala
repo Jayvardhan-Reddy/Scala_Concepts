@@ -1,5 +1,8 @@
+package com.scala.ordersexample
+
 import java.sql.DriverManager
 import java.sql.Connection
+import com.typesafe.config._
 
 case class EmployeeCommission(fname: String, lname: String,
                               salary: Double, commission_amt: Double){
@@ -19,8 +22,8 @@ case class EmployeeCommission(fname: String, lname: String,
 object CommisionAmount {
   def main(args: Array[String]): Unit = {
     val driver = "com.mysql.jdbc.Driver"
-    val url = "jdbc:mysql://nn01.itversity.com:3306/hr"   //1:23:54 - chk this tym video 4 for adress
-    val username = "hr_ro"
+    val url = "jdbc:mysql://nn01.itversity.com:3306/retail_db"   //1:23:54 - chk this tym video 4 for adresss
+    val username = "retail_dba"
     val password = "itversity"
 
     Class.forName(driver)

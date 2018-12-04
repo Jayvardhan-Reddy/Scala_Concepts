@@ -1,5 +1,12 @@
 package com.scala.core
 
+/* All the counter parts to the primitive types(int, float..) of Java in Scala are called Value classes (Int, Float..), you can see that on 
+ * compilation from scala to java. using the command :javap -p ClassName
+ * The Value classes convert according to the requirement i.e either to Java primitive types(int,float) or classes (Integer,FLoat) and the
+ * conversion part is hidden from the user
+ */
+
+
 object ScalaClassAndAttributes {
  def main(args: Array[String]){
   val depValObj = new DepartmentVal(23, "creep")
