@@ -1,5 +1,5 @@
 package com.scala.advance
 
-object Monoid extends App {
+object MonoidDemo extends App {
   
 }
