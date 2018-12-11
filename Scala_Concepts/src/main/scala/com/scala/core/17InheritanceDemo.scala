@@ -1,3 +1,5 @@
+package com.scala.core
+
 class Point( val x: Int , val y: Int) {
  protected var a = x
   protected var b = y

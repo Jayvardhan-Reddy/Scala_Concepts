@@ -1,7 +1,7 @@
 package com.scala.core
 
-/*All the counter parts to java primitive types in scala are called as Value classes because they behave like primitives Whenever they should behave
-like integer with I capital float with F capital etc. to act as class variables*/
+/*All the counter parts to java primitive types in scala are called as Value classes because they behave like primitives Whenever 
+ * they should behave like integer with I capital float with F capital etc. to act as class variables*/
 
 
 object RequireDemo extends App {
