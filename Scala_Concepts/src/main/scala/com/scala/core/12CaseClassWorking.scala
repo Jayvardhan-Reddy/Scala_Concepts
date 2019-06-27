@@ -1,5 +1,8 @@
 package com.scala.core
-
+/*
+Case class is a Serializable class with a compainion Object which has a special method called apply.
+It will implement product and it will have getter method for each of the class variables. By default they are immutable of type val
+*/
 object CaseClassWorking extends App {
   
   //To create a Object
